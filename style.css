@@ -8,9 +8,10 @@ h1{
 span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
-    margin: 150px;
+    
+  
 }
 
 .half-width
@@ -29,6 +30,7 @@ section{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+    
 }
 .Top-bannar{
     background-image:url(/images/top-banner.png);
@@ -40,3 +42,38 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.Experience-item{
+    width: 40%;
+    margin-left: 5% ;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px ;
+    border-left: 6px solid blue;
+    margin-bottom: 100px;
+
+
+}
+
+h2{
+    font-size: 40px;
+}
+.Experience-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-bady{
+    border-left: 10px solid rgb(18, 175, 175);
+}
+#full-stack-developer{
+    border-left:10px solid rebeccapurple;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 35px;
+    color: brown;
+}
+
+
+
